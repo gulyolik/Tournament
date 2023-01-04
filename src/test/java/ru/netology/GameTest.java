@@ -20,10 +20,10 @@ public class GameTest {
 
     @BeforeEach
     public void SetUp() {
-        game.register(player1);
-        game.register(player2);
-        game.register(player3);
-        game.register(player4);
+        game.register("Петя", 10);
+        game.register("Света", 22);
+        game.register("Игорь", 22);
+        game.register("Маша", 19);
     }
 
     @Test
