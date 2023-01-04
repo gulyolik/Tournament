@@ -17,7 +17,7 @@ public class Game {
     }
 
     boolean isRegistered(String name) {
-        for (String key: playersMap.keySet()) {
+        for (String key : playersMap.keySet()) {
             if (playersMap.containsKey(name)) {
                 return true;
             }
